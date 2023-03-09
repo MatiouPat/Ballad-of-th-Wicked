@@ -1,0 +1,1011 @@
+fileFormatVersion: 2
+guid: d42a11c492ed3d644be164b782743e7c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0748ced81500e6540a2a58d47d3fc1f8
+      internalID: -1957849666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_1
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee2a100c69b174041a9c6f2fede38a4b
+      internalID: 212474099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_2
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff83c3c7700afb419a137482115ff66
+      internalID: 210556678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_3
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bb70bf0d243124ab6bd4dc4002ef20
+      internalID: -430509159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_4
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c77ad25e626db46bea1b22eba57966
+      internalID: -119474878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_5
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c19b255ba4930441b29415c4ec3a0ac
+      internalID: 925511802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_6
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ca59b6d83d1434fb6709d2b92450e6
+      internalID: 302952151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_7
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b949265b43b66d14e89f2207a3de2a31
+      internalID: 409177687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_8
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 7168
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90accc833e58da74fb297709655b77c5
+      internalID: -707017989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d0fa2c004f9ee468e54465a66458b6
+      internalID: 789443001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_10
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d77cd5cfd02f8a4a8dd2a58413dc27a
+      internalID: 429076814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_11
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2b34c4d195ccd04c97cbb4833bf89d1
+      internalID: 553531490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_12
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cceeac7f344e1484baaec27013392632
+      internalID: -919977367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_13
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbc367c31864904cb907a71558fd2f6
+      internalID: 1227201141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_14
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce948547e7d8392448fd89fe078b2a9e
+      internalID: 1947352566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_15
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 682a09321d98644439723d1db0e71d99
+      internalID: -426209397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_16
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d395123a4025743beec2298382d9b7
+      internalID: -782907720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_17
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 6144
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd7860099e06d2d4899bd6eed50307fc
+      internalID: 1214367807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58262f26d3218644087907af6d61af9b
+      internalID: 1002056586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_19
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb962531541aa4449ff84604f3a2285
+      internalID: -1092082684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_20
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38c790ef7ec6aec46a0805b9e8a28fd8
+      internalID: 634965152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_21
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1d09054d45a5146a2eb03d06bfe294
+      internalID: -111171660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_22
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c282be903f0a4cb7baa5f99c802c4
+      internalID: -945183725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_23
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53c8b73ad90179f43b4464682a792d6b
+      internalID: 47131873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_24
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d48ed5e47b8794b9e19cd67de8d089
+      internalID: -1849882693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_25
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea759d023d147da4ca04c5ae02e3b7ff
+      internalID: -1115464919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_26
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 5120
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b83138b184712b4599959bb3d0a660d
+      internalID: -1353728270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983ec731443098f4fb6d5733b01fa7a8
+      internalID: 974292561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_28
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead6b2285b0d94d40888ae1a1f35e839
+      internalID: -1424769494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_29
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c3fd0fc5d423e468be835e964fc693
+      internalID: -1640229425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_30
+      rect:
+        serializedVersion: 2
+        x: 2730
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271c8eb09bc6348478cc8b357544bd90
+      internalID: -941265465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_31
+      rect:
+        serializedVersion: 2
+        x: 3640
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8144254c85349a64b8b68f30af5a180d
+      internalID: 927673109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_32
+      rect:
+        serializedVersion: 2
+        x: 4550
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda9310a9a9df7f4c83ae3d65fcb65cd
+      internalID: 1288803862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_33
+      rect:
+        serializedVersion: 2
+        x: 5460
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e7f11e332b0d96448336529466ad0b1
+      internalID: -126355154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_34
+      rect:
+        serializedVersion: 2
+        x: 6370
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a919449fdae943e48b5562165fd10164
+      internalID: -1367004742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MAEVE_spritesheet_003_35
+      rect:
+        serializedVersion: 2
+        x: 7280
+        y: 4096
+        width: 910.2222
+        height: 1024
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2e82a89ff865b4ead97c9166239d7f
+      internalID: -289641065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      MAEVE_spritesheet_003_0: -1957849666
+      MAEVE_spritesheet_003_1: 212474099
+      MAEVE_spritesheet_003_10: 429076814
+      MAEVE_spritesheet_003_11: 553531490
+      MAEVE_spritesheet_003_12: -919977367
+      MAEVE_spritesheet_003_13: 1227201141
+      MAEVE_spritesheet_003_14: 1947352566
+      MAEVE_spritesheet_003_15: -426209397
+      MAEVE_spritesheet_003_16: -782907720
+      MAEVE_spritesheet_003_17: 1214367807
+      MAEVE_spritesheet_003_18: 1002056586
+      MAEVE_spritesheet_003_19: -1092082684
+      MAEVE_spritesheet_003_2: 210556678
+      MAEVE_spritesheet_003_20: 634965152
+      MAEVE_spritesheet_003_21: -111171660
+      MAEVE_spritesheet_003_22: -945183725
+      MAEVE_spritesheet_003_23: 47131873
+      MAEVE_spritesheet_003_24: -1849882693
+      MAEVE_spritesheet_003_25: -1115464919
+      MAEVE_spritesheet_003_26: -1353728270
+      MAEVE_spritesheet_003_27: 974292561
+      MAEVE_spritesheet_003_28: -1424769494
+      MAEVE_spritesheet_003_29: -1640229425
+      MAEVE_spritesheet_003_3: -430509159
+      MAEVE_spritesheet_003_30: -941265465
+      MAEVE_spritesheet_003_31: 927673109
+      MAEVE_spritesheet_003_32: 1288803862
+      MAEVE_spritesheet_003_33: -126355154
+      MAEVE_spritesheet_003_34: -1367004742
+      MAEVE_spritesheet_003_35: -289641065
+      MAEVE_spritesheet_003_36: -494813359
+      MAEVE_spritesheet_003_37: 956953871
+      MAEVE_spritesheet_003_38: 409124171
+      MAEVE_spritesheet_003_39: -1660073352
+      MAEVE_spritesheet_003_4: -119474878
+      MAEVE_spritesheet_003_40: 771908410
+      MAEVE_spritesheet_003_41: -859730345
+      MAEVE_spritesheet_003_42: -311052823
+      MAEVE_spritesheet_003_43: 2142574622
+      MAEVE_spritesheet_003_44: -1027287106
+      MAEVE_spritesheet_003_45: -794848346
+      MAEVE_spritesheet_003_46: -42665020
+      MAEVE_spritesheet_003_47: 1518312481
+      MAEVE_spritesheet_003_48: -166235527
+      MAEVE_spritesheet_003_49: -205059324
+      MAEVE_spritesheet_003_5: 925511802
+      MAEVE_spritesheet_003_50: 1695479999
+      MAEVE_spritesheet_003_51: 1146478504
+      MAEVE_spritesheet_003_52: 820394577
+      MAEVE_spritesheet_003_53: -303101465
+      MAEVE_spritesheet_003_54: -759637311
+      MAEVE_spritesheet_003_55: 104416323
+      MAEVE_spritesheet_003_56: -1564000000
+      MAEVE_spritesheet_003_57: -1713842827
+      MAEVE_spritesheet_003_58: -894951023
+      MAEVE_spritesheet_003_59: 1815493062
+      MAEVE_spritesheet_003_6: 302952151
+      MAEVE_spritesheet_003_60: -1567758139
+      MAEVE_spritesheet_003_61: 729019389
+      MAEVE_spritesheet_003_62: 1227340
+      MAEVE_spritesheet_003_63: -425043782
+      MAEVE_spritesheet_003_64: 2111874299
+      MAEVE_spritesheet_003_65: 1980741850
+      MAEVE_spritesheet_003_66: -1088364735
+      MAEVE_spritesheet_003_67: -1007341880
+      MAEVE_spritesheet_003_68: -422608393
+      MAEVE_spritesheet_003_69: -966265564
+      MAEVE_spritesheet_003_7: 409177687
+      MAEVE_spritesheet_003_70: -366941879
+      MAEVE_spritesheet_003_71: 1205464748
+      MAEVE_spritesheet_003_8: -707017989
+      MAEVE_spritesheet_003_9: 789443001
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
