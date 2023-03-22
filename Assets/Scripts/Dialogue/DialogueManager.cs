@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using TMPro;
 using Ink.Runtime;
 
@@ -21,6 +22,8 @@ public class DialogueManager : MonoBehaviour
     private static DialogueManager instance;
 
     public bool dialogueIsPlaying { get; private set; }
+
+    private const string SPEAKER_TAG = "speaker";
 
     private void Awake()
     {
@@ -49,6 +52,7 @@ public class DialogueManager : MonoBehaviour
             choicesText[index] = choice.GetComponentInChildren<TextMeshProUGUI>();
             index++;
         }
+
         HideChoices();
     }
 
@@ -59,7 +63,7 @@ public class DialogueManager : MonoBehaviour
             return;
         }
 
-        if (InputController.GetInstance().GetInteract())
+        if (currentStory.currentChoices.Count == 0 && InputController.GetInstance().GetInteract())
         {
             ContinueStory();
         }
@@ -91,11 +95,11 @@ public class DialogueManager : MonoBehaviour
             {
                 choiceButton.SetActive(false);
             }
-            Debug.Log(currentStory.currentTags.ToString());
             //Set text for the current dialogue line
             dialogueText.text = currentStory.Continue();
             //Display choices, if any, for this dialogue line
             DisplayChoices();
+            HandleTags(currentStory.currentTags);
         }
         else
         {
@@ -126,6 +130,14 @@ public class DialogueManager : MonoBehaviour
         {
             choices[i].gameObject.SetActive(false);
         }
+
+        EventSystem.current.SetSelectedGameObject(null);
+    }
+
+    public void MakeChoice(int choiceIndex)
+    {
+        currentStory.ChooseChoiceIndex(choiceIndex);
+        ContinueStory();
     }
 
     private void HideChoices()
@@ -136,4 +148,29 @@ public class DialogueManager : MonoBehaviour
         }
     }
 
+    private void HandleTags(List<string> currentTags)
+    {
+        foreach (string tag in currentTags)
+        {
+            // parse the tag
+            string[] splitTag = tag.Split(':');
+            if (splitTag.Length != 2)
+            {
+                Debug.LogError("Tag could not be appropriately parsed: " + tag);
+            }
+            string tagKey = splitTag[0].Trim();
+            string tagValue = splitTag[1].Trim();
+
+            // handle the tag
+            switch (tagKey)
+            {
+                case SPEAKER_TAG:
+                    nameText.text = tagValue;
+                    break;
+                default:
+                    Debug.LogWarning("Tag came in but is not currently being handled: " + tag);
+                    break;
+            }
+        }
+    }
 }
