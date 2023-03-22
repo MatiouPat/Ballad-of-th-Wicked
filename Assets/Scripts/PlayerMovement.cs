@@ -16,7 +16,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        float horizontalMovement = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
+        if (DialogueManager.GetInstance().dialogueIsPlaying)
+        {
+            return;
+        }
+        float horizontalMovement = InputController.GetInstance().GetMoveDirection().x * moveSpeed * Time.deltaTime;
         MovePlayer(horizontalMovement);
         Flip(rb.velocity.x);
         animator.SetFloat("Speed", Mathf.Abs(rb.velocity.x));
